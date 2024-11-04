@@ -18,7 +18,9 @@
 
 - CURSE OF MOONLIGHT -
 
-Curse of Moonlight is now Open Source! To build the project, move your copy of baserom_original.z64 to the cloned folder and run make setup, once that's complete, run make -j.
+Curse of Moonlight is now Open Source! To build the project, 
+move your copy of baserom_original.z64 to the cloned folder 
+and run make setup, once that's complete, run make -j.
 
 Special Thanks:
 Zel - pumkin tower z64rom audio streaming, 
