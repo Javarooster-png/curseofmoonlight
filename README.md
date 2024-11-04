@@ -30,6 +30,7 @@ HackerOoT - MM blur effect,
 KentonM - Decomp modding tutorials, and wall pull switch,
 CDi-Fails - Wall pull switch,
 Dragorn - Base for decomp mods
+Jooj - Best OoT Player in the world/Play Tester
 
 - WARNING! -
 
