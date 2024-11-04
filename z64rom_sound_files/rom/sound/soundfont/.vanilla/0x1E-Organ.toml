@@ -1,0 +1,73 @@
+#medium_type = "ram" / "unk"     / "cart" / "ddrive"
+#sequence_player = "sfx" / "fanfare" / "bgm"  / "demo"
+medium_type = "cart"
+sequence_player = "bgm"
+[inst]
+	[[inst.entry]]
+		split_hi = "B5"
+		split_lo = "A1"
+		release_rate = 211
+		env_rate = [
+			2, 1, 32700, -1,
+		]
+		env_level = [
+			32700, 32700, 29430, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Inst_Organ_Prim"
+			tuning = 1.000000
+		[inst.entry.hi]
+			sample = "Inst_Organ_Hi"
+			tuning = 0.500000
+	[[inst.entry]]
+		split_hi = "B5"
+		split_lo = "A1"
+		release_rate = 211
+		env_rate = [
+			2, 1, 32700, -1,
+		]
+		env_level = [
+			32700, 32700, 29430, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Inst_Organ_Prim"
+			tuning = 1.000000
+		[inst.entry.hi]
+			sample = "Inst_Organ_Hi"
+			tuning = 0.500000
+	[[inst.entry]]
+		split_hi = "B5"
+		split_lo = "A1"
+		release_rate = 211
+		env_rate = [
+			2, 1, 32700, -1,
+		]
+		env_level = [
+			32700, 32700, 29430, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Inst_Organ_Prim"
+			tuning = 1.000000
+		[inst.entry.hi]
+			sample = "Inst_Organ_Hi"
+			tuning = 0.500000
+	[[inst.entry]]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 239
+		env_rate = [
+			2, 1, 32700, -1,
+		]
+		env_level = [
+			32700, 32700, 29430, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Inst_Horn"
+			tuning = 1.000000
+		[inst.entry.hi]
+

@@ -1,0 +1,307 @@
+#medium_type = "ram" / "unk"     / "cart" / "ddrive"
+#sequence_player = "sfx" / "fanfare" / "bgm"  / "demo"
+medium_type = "cart"
+sequence_player = "bgm"
+[inst]
+	[[inst.entry]]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Nightingale1"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Nightingale2"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Nightingale3"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Nightingale4"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Nightingale5"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Crow"
+			tuning = 0.689062
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Flamingo1"
+			tuning = 1.000000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Hawk"
+			tuning = 1.000000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Robbin"
+			tuning = 1.000000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Cucco_Call"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Owl"
+			tuning = 1.000000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Blue_Jay"
+			tuning = 1.000000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Nightingale6"
+			tuning = 1.000000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Bird_Flamingo2"
+			tuning = 1.000000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Water_Waterfall1"
+			tuning = 0.667420
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Amb_Wind"
+			tuning = 0.689062
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Amb_Sandstorm"
+			tuning = 0.198425
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Amb_Rain"
+			tuning = 0.750000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Amb_Distant_Thunder"
+			tuning = 0.689062
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 231
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Thunder"
+			tuning = 0.689062
+		[inst.entry.hi]
+

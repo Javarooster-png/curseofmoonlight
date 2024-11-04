@@ -1,0 +1,917 @@
+#medium_type = "ram" / "unk"     / "cart" / "ddrive"
+#sequence_player = "sfx" / "fanfare" / "bgm"  / "demo"
+medium_type = "cart"
+sequence_player = "sfx"
+[inst]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Step_Big1"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Roar_Breathy"
+			tuning = 0.689062
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Fire_Shoot"
+			tuning = 0.689062
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Roar2"
+			tuning = 0.689062
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Rustle"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Crackling"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Step_Big2"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Creak"
+			tuning = 0.689062
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Distorted_Voice"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Keese_Hit"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Flapping"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Roar3"
+			tuning = 0.689062
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Scrape_Small"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Moblin_Breath"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Laugh"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Goose"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Step_Barefoot"
+			tuning = 0.031250
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Whine"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Shatter_Pottery2"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Rumble"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Dodongo_Breathe"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Dodongo_Swallow"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Wood_Impact2"
+			tuning = 0.031250
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Deku_Baba_Chomp"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Amb_Wind"
+			tuning = 0.689062
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Scream"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Buzz"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Enemy_Deku_Baba_Lunge"
+			tuning = 0.031250
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Stalfos_Attack"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Stalfos_Die"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Stalfos_Laugh"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Swipe3"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Magic_Thunder1"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Electric"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Magic_Float"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Magic_Charge"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Magic_Swoosh"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Magic_Thunder2"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Die"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Boss_Phantom_Ganon_Attack"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Groan"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Water_Splash_Big"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Step_Shallow_Water"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Generic_Explosion"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Amb_Lava"
+			tuning = 0.043066
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Roar1"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Redead_Moan"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Npc_Goron_Happy"
+			tuning = 0.031250
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Laugh"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Amb_Underwater"
+			tuning = 0.500000
+		[inst.entry.hi]
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Enemy_Deadhand_Bite"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Enemy_Poe_Whine"
+			tuning = 0.031250
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Npc_Goron_Notice"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Npc_Goron_Move"
+			tuning = 0.031250
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Metal_Sword_Hit3"
+			tuning = 1.000000
+		[inst.entry.hi]
+			sample = "Water_Noise2"
+			tuning = 0.031250
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Boss_Bongo_Bongo_Bongo"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Boss_Bongo_Bongo_Sing"
+			tuning = 0.031250
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Anim_Wolf_Howl"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Anim_Bird_Flamingo2"
+			tuning = 0.062500
+	[[inst.entry]]
+		split_hi = "B6"
+		split_lo = "A1"
+		release_rate = 251
+		env_rate = [
+			1, 1, 32700, -1,
+		]
+		env_level = [
+			0, 32700, 32700, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Boss_Kotake_Koume_Argue"
+			tuning = 0.500000
+		[inst.entry.hi]
+			sample = "Metal_Impact_Big"
+			tuning = 0.031250
+[sfx]
+	[[sfx.entry]]
+		sample = "Boss_Kotake_Koume_Laugh1"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Kotake_Koume_Laugh2"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Kotake_Koume_Hurt"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Kotake_Koume_Attack"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Kotake_Koume_Questioning"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Kotake_Koume_Cry"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Twinrova_Stunned"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Twinrova_Hurt"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Twinrova_Attack"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Twinrova_Laugh"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Twinrova_Die"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Twinrova_Wink"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Enemy_Iron_Knuckle_Snap"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Enemy_Iron_Knuckle_Attack"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Enemy_Iron_Knuckle_Hurt"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Enemy_Iron_Knuckle_Charge"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Enemy_Iron_Knuckle_Die"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Enemy_Iron_Knuckle_Grunt"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Enemy_Iron_Knuckle_Rise"
+		tuning = 0.396850
+	[[sfx.entry]]
+		sample = "Enemy_Gerudo_Attack"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Enemy_Gerudo_Hurt"
+		tuning = 0.396850
+	[[sfx.entry]]
+		sample = "Enemy_Gerudo_Die"
+		tuning = 0.396850
+	[[sfx.entry]]
+		sample = "Enemy_Gerudo_Breathe"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Laugh1"
+		tuning = 0.396850
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Lash"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Attack1"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Attack2"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Attack3"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Gasp_Shocked"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Hurt"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Gasp_Stunned"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Recover"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Hurt_Dying"
+		tuning = 0.396850
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Gasp_Dying"
+		tuning = 0.396850
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Throw_Up"
+		tuning = 0.445450
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Scream"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Attack_Big1"
+		tuning = 0.500000
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Attack_Big2"
+		tuning = 0.396850
+	[[sfx.entry]]
+		sample = "Boss_Ganondorf_Laugh2"
+		tuning = 0.374577
+	[[sfx.entry]]
+		sample = "Enemy_Damage"
+		tuning = 0.613885
+	[[sfx.entry]]
+		sample = "Enemy_Redead_Scream"
+		tuning = 0.500000
+

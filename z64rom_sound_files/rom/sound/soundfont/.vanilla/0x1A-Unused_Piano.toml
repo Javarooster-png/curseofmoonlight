@@ -1,0 +1,57 @@
+#medium_type = "ram" / "unk"     / "cart" / "ddrive"
+#sequence_player = "sfx" / "fanfare" / "bgm"  / "demo"
+medium_type = "cart"
+sequence_player = "bgm"
+[inst]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+	[[inst.entry]]
+		split_hi = "F5"
+		split_lo = "G3"
+		release_rate = 93
+		env_rate = [
+			2, 298, 1, -1,
+		]
+		env_level = [
+			32700, 0, 0, 0,
+		]
+		[inst.entry.low]
+			sample = "Inst_Piano_Low"
+			tuning = 2.317721
+		[inst.entry.prim]
+			sample = "Inst_Piano_Prim"
+			tuning = 1.000000
+		[inst.entry.hi]
+			sample = "Inst_Piano_Hi"
+			tuning = 0.500000
+	[[inst.entry]]
+		split_hi = "F5"
+		split_lo = "G3"
+		release_rate = 93
+		env_rate = [
+			2, 298, 1, -1,
+		]
+		env_level = [
+			32700, 0, 0, 0,
+		]
+		[inst.entry.low]
+			sample = "Inst_Piano_Low"
+			tuning = 2.317721
+		[inst.entry.prim]
+			sample = "Inst_Piano_Prim"
+			tuning = 1.000000
+		[inst.entry.hi]
+			sample = "Inst_Piano_Hi"
+			tuning = 0.500000
+

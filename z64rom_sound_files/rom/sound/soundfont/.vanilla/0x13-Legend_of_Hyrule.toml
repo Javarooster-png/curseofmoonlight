@@ -1,0 +1,72 @@
+#medium_type = "ram" / "unk"     / "cart" / "ddrive"
+#sequence_player = "sfx" / "fanfare" / "bgm"  / "demo"
+medium_type = "cart"
+sequence_player = "bgm"
+[inst]
+	[[inst.entry]]
+		split_hi = "F#5"
+		split_lo = "A1"
+		release_rate = 211
+		env_rate = [
+			21, 1, 32700, -1,
+		]
+		env_level = [
+			32700, 32700, 29430, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Inst_Choir_Female_Prim"
+			tuning = 0.516214
+		[inst.entry.hi]
+			sample = "Inst_Choir_Female_Hi"
+			tuning = 0.365018
+	[[inst.entry]]
+		split_hi = "F#5"
+		split_lo = "A1"
+		release_rate = 211
+		env_rate = [
+			21, 1, 32700, -1,
+		]
+		env_level = [
+			32700, 32700, 29430, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Inst_Choir_Female_Prim"
+			tuning = 0.516214
+		[inst.entry.hi]
+			sample = "Inst_Choir_Female_Hi"
+			tuning = 0.365018
+	[[inst.entry]]
+		split_hi = "G#5"
+		split_lo = "A1"
+		release_rate = 211
+		env_rate = [
+			2, 298, 32700, -1,
+		]
+		env_level = [
+			32700, 32700, 29430, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Inst_Harp_Prim"
+			tuning = 0.750000
+		[inst.entry.hi]
+			sample = "Inst_Harp_Hi"
+			tuning = 0.375000
+	[[inst.entry]]
+		split_hi = "E12"
+		split_lo = "A1"
+		release_rate = 117
+		env_rate = [
+			2, 127, 73, -1,
+		]
+		env_level = [
+			32700, 5615, 0, 0,
+		]
+		[inst.entry.low]
+		[inst.entry.prim]
+			sample = "Inst_Glockenspiel"
+			tuning = 0.529732
+		[inst.entry.hi]
+

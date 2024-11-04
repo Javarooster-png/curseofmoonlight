@@ -15,6 +15,20 @@
 [discord-badge]: https://img.shields.io/discord/688807550715560050?color=%237289DA&logo=discord&logoColor=%23FFFFFF
 
 ```diff
+
+- CURSE OF MOONLIGHT -
+
+Curse of Moonlight is now Open Source! To build the project, move your copy of baserom_original.z64 to the cloned folder and run make setup, once that's complete, run make -j.
+
+Special Thanks:
+Zel - pumkin tower z64rom audio streaming, 
+z64me - technical assistance,
+ariahiro64 - decomp audio integration,
+HackerOoT - MM blur effect,
+KentonM - Decomp modding tutorials, and wall pull switch,
+CDi-Fails - Wall pull switch,
+Dragorn - Base for decomp mods
+
 - WARNING! -
 
 This repository is a work in progress, and while it can be used to make certain changes, it's still
