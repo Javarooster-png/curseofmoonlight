@@ -1,0 +1,12 @@
+extern u64 gDoorLeftDL_CASTLEVANIA2_3114F9DD_2_0_3F63710D_ciByRGBA_ci4[];
+extern u64 gDoorLeftDL_CASTLEVANIA2_3114F9DD_2_0_3F63710D_ciByRGBA_pal_rgba16[];
+extern u64 gDoorLeftDL_CASTLEVANIA2_5BEEB9F6_2_0_ED76473C_ciByRGBA_ci4[];
+extern u64 gDoorLeftDL_CASTLEVANIA2_5BEEB9F6_2_0_ED76473C_ciByRGBA_pal_rgba16[];
+extern Vtx gDoorLeftDL_gDoorLeftDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDoorLeftDL_gDoorLeftDL_mesh_layer_Opaque_vtx_0[12];
+extern Gfx gDoorLeftDL_gDoorLeftDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDoorLeftDL_gDoorLeftDL_mesh_layer_Opaque_vtx_1[8];
+extern Gfx gDoorLeftDL_gDoorLeftDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDoorLeftDL_f3dlite_material_019_layerOpaque[];
+extern Gfx mat_gDoorLeftDL_f3dlite_material_004_layerOpaque[];
+extern Gfx gDoorLeftDL[];

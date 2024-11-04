@@ -1,0 +1,1 @@
+extern AnimationHeader gSkelskelIdle2Anim;

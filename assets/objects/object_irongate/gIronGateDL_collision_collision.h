@@ -1,0 +1,4 @@
+extern SurfaceType gIronGateDL_collision_polygonTypes[];
+extern CollisionPoly gIronGateDL_collision_polygons[];
+extern Vec3s gIronGateDL_collision_vertices[8];
+extern CollisionHeader gIronGateDL_collision_collisionHeader;

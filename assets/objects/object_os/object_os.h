@@ -1,0 +1,40 @@
+#ifndef OBJECT_OS_H
+#define OBJECT_OS_H 1
+
+extern s16 sHappyMaskSalesmanIdleAnimFrameData[];
+extern JointIndex sHappyMaskSalesmanIdleAnimJointIndices[];
+extern AnimationHeader gHappyMaskSalesmanIdleAnim;
+extern Vtx object_osVtx_000300[];
+extern Gfx gHappyMaskSalesmanTorsoDL[];
+extern Gfx gHappyMaskSalesmanHeadDL[];
+extern Gfx gHappyMaskSalesmanRightUpperArmDL[];
+extern Gfx gHappyMaskSalesmanRightForearmDL[];
+extern Gfx gHappyMaskSalesmanRightHandDL[];
+extern Gfx gHappyMaskSalesmanLeftUpperArmDL[];
+extern Gfx gHappyMaskSalesmanLeftForearmDL[];
+extern Gfx gHappyMaskSalesmanLeftHandDL[];
+extern u64 gHappyMaskSalesmanTLUT[];
+extern u64 gHappyMaskSalesmanEyeMouthTLUT[];
+extern u64 gHappyMaskSalesmanSkinTex[];
+extern u64 gHappyMaskSalesmanHairTex[];
+extern u64 gHappyMaskSalesmanEarTex[];
+extern u64 gHappyMaskSalesmanNostrilTex[];
+extern u64 gHappyMaskSalesmanMouthTex[];
+extern u64 gHappyMaskSalesmanEyeClosedTex[];
+extern u64 gHappyMaskSalesmanEyeOpenTex[];
+extern u64 gHappyMaskSalesmanFingersTex[];
+extern u64 gHappyMaskSalesmanSleeveTex[];
+extern u64 gHappyMaskSalesmanShirtTex[];
+extern u64 gHappyMaskSalesmanGoldFabricTex[];
+extern u64 gHappyMaskSalesmanGoldFabricCenterTex[];
+extern StandardLimb gHappyMaskSalesmanTorsoLimb;
+extern StandardLimb gHappyMaskSalesmanLeftUpperArmLimb;
+extern StandardLimb gHappyMaskSalesmanLeftForearmLimb;
+extern StandardLimb gHappyMaskSalesmanLeftHandLimb;
+extern StandardLimb gHappyMaskSalesmanRightUpperArmLimb;
+extern StandardLimb gHappyMaskSalesmanRightForearmLimb;
+extern StandardLimb gHappyMaskSalesmanRightHandLimb;
+extern StandardLimb gHappyMaskSalesmanHeadLimb;
+extern void* gHappyMaskSalesmanSkelLimbs[];
+extern FlexSkeletonHeader gHappyMaskSalesmanSkel;
+#endif

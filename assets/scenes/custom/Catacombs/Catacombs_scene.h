@@ -1,0 +1,73 @@
+#ifndef CATACOMBS_SCENE_H
+#define CATACOMBS_SCENE_H
+
+#include "ultra64.h"
+#include "macros.h"
+#include "z64.h"
+
+
+extern SceneCmd Catacombs_scene_header00[];
+extern RomFile Catacombs_scene_roomList[];
+extern u8 _Catacombs_room_0SegmentRomStart[];
+extern u8 _Catacombs_room_0SegmentRomEnd[];
+extern ActorEntry Catacombs_scene_header00_playerEntryList[];
+extern Spawn Catacombs_scene_header00_entranceList[];
+extern EnvLightSettings Catacombs_scene_header00_lightSettings[4];
+extern CollisionHeader Catacombs_scene_collisionHeader;
+extern WaterBox Catacombs_scene_waterBoxes[2];
+extern SurfaceType Catacombs_scene_polygonTypes[1];
+extern Vec3s Catacombs_scene_vertices[773];
+extern CollisionPoly Catacombs_scene_polygons[1529];
+extern SceneCmd Catacombs_room_0_header00[];
+extern Gfx Catacombs_room_0_shapeHeader_entry_0_opaque[];
+extern Gfx Catacombs_room_0_shapeHeader_entry_0_transparent[];
+extern u64 Catacombs_room_0_dl_skellawall_i4[];
+extern u64 Catacombs_room_0_dl_Rock2_i8[];
+extern u64 Catacombs_room_0_dl_Stairs_00_i8[];
+extern u64 Catacombs_room_0_dl_CASTLEVANIA2_1E9A5199_2_0_CDFC0965_ciByRGBA_i8[];
+extern u64 Catacombs_room_0_dl_Z2_HAKASHITA__9__i8[];
+extern u64 Catacombs_room_0_dl_Bone_Wall_X_i8[];
+extern u64 Catacombs_room_0_dl_THE_LEGEND_OF_ZELDA_8DAE162D_0_2_all_i8[];
+extern u64 Catacombs_room_0_dl_Brick_Wall_i8[];
+extern u64 Catacombs_room_0_dl_Gate_04_ia8[];
+extern u64 Catacombs_room_0_dl_Poison_ci8[];
+extern u64 Catacombs_room_0_dl_Poison_x_Poison_pal_rgba16[];
+extern u64 Catacombs_room_0_dl_Poison_ci8_copy[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_0[76];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_tri_0[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_1[1224];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_tri_1[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_2[36];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_tri_2[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_3[181];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_tri_3[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_4[102];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_tri_4[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_5[44];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_tri_5[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_6[227];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_tri_6[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_7[138];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_tri_7[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_vtx_8[36];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque_tri_8[];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_001_mesh_layer_Transparent_vtx_cull[8];
+extern Vtx Catacombs_room_0_dl_Catacombs_F1_001_mesh_layer_Transparent_vtx_0[24];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_001_mesh_layer_Transparent_tri_0[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_001_layerOpaque[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_003_layerOpaque[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_004_layerOpaque[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_005_layerOpaque[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_088_layerOpaque[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_089_layerOpaque[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_091_layerOpaque[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_092_layerOpaque[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_094_layerOpaque[];
+extern Gfx mat_Catacombs_room_0_dl_f3dlite_material_093_layerTransparent[];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_mesh_layer_Opaque[];
+extern Gfx Catacombs_room_0_dl_Catacombs_F1_001_mesh_layer_Transparent[];
+extern RoomShapeNormal Catacombs_room_0_shapeHeader;
+extern RoomShapeDListsEntry Catacombs_room_0_shapeDListsEntry[1];
+
+#endif

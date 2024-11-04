@@ -1,0 +1,1 @@
+extern AnimationHeader gEldrSkelIdle3Anim;

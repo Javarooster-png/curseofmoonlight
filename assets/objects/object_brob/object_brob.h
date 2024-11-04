@@ -1,0 +1,39 @@
+#ifndef OBJECT_BROB_H
+#define OBJECT_BROB_H 1
+
+extern s16 sBrobStunnedAnimFrameData[];
+extern JointIndex sBrobStunnedAnimJointIndices[];
+extern AnimationHeader gBrobStunnedAnim;
+extern Vtx object_brobVtx_0002A0[];
+extern Gfx gBrobBaseSegmentDL[];
+extern Gfx gBrobLowerSegmentDL[];
+extern Gfx gBrobMiddleSegmentDL[];
+extern Gfx gBrobUpperSegmentDL[];
+extern Gfx gBrobTopSegmentDL[];
+extern u64 gBrobFleshTex[];
+extern StandardLimb gBrobRootLimb;
+extern StandardLimb gBrobBaseSegmentRootLimb;
+extern StandardLimb gBrobBaseSegmentLimb;
+extern StandardLimb gBrobLowerSegmentRootLimb;
+extern StandardLimb gBrobLowerSegmentLimb;
+extern StandardLimb gBrobMiddleSegmentLimb;
+extern StandardLimb gBrobUpperSegmentRootLimb;
+extern StandardLimb gBrobUpperSegmentLimb;
+extern StandardLimb gBrobTopSegmentLimb;
+extern void* gBrobSkelLimbs[];
+extern FlexSkeletonHeader gBrobSkel;
+extern s16 sBrobShockAnimFrameData[];
+extern JointIndex sBrobShockAnimJointIndices[];
+extern AnimationHeader gBrobShockAnim;
+extern s16 sBrobMoveUpAnimFrameData[];
+extern JointIndex sBrobMoveUpAnimJointIndices[];
+extern AnimationHeader gBrobMoveUpAnim;
+extern s16 sBrobWobbleAnimFrameData[];
+extern JointIndex sBrobWobbleAnimJointIndices[];
+extern AnimationHeader gBrobWobbleAnim;
+extern BgCamInfo gBrobColCamDataList[];
+extern SurfaceType gBrobColSurfaceType[];
+extern CollisionPoly gBrobColPolygons[];
+extern Vec3s gBrobColVertices[];
+extern CollisionHeader gBrobCol;
+#endif

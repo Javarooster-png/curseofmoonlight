@@ -1,0 +1,20 @@
+#ifndef HAKADANCH_ROOM_2_H
+#define HAKADANCH_ROOM_2_H 1
+
+extern SceneCmd HAKAdanCH_room_2Commands[];
+extern s16 HAKAdanCH_room_2ObjectList_000040[];
+extern ActorEntry HAKAdanCH_room_2ActorEntry_000050[];
+extern RoomShapeCullable HAKAdanCH_room_2RoomShapeCullable_000110;
+extern RoomShapeCullableEntry HAKAdanCH_room_2RoomShapeCullableEntry_00011C[3];
+extern s32 HAKAdanCH_room_2_terminatorMaybe_00014C;
+extern Vtx HAKAdanCH_room_2Vtx_000150[];
+extern Gfx HAKAdanCH_room_2DL_0006E0[];
+extern Vtx HAKAdanCH_room_2Vtx_0008A0[];
+extern Gfx HAKAdanCH_room_2DL_0009E0[];
+extern Vtx HAKAdanCH_room_2Vtx_000AA8[];
+extern Gfx HAKAdanCH_room_2DL_001FA8[];
+extern u64 HAKAdanCH_room_2Tex_002958[];
+extern u64 HAKAdanCH_room_2Tex_002B58[];
+extern u64 HAKAdanCH_room_2Tex_002D58[];
+extern u64 HAKAdanCH_room_2Tex_002F58[];
+#endif

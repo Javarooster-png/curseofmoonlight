@@ -1,0 +1,12 @@
+extern u64 gWindowMeshDL_CASTLEVANIA2_DFAB8870_2_0_2C0F3D87_ciByRGBA_ci4[];
+extern u64 gWindowMeshDL_CASTLEVANIA2_DFAB8870_2_0_2C0F3D87_ciByRGBA_pal_rgba16[];
+extern u64 gWindowMeshDL_CASTLEVANIA267DAF8EB20238F952A_ciByRGBA_ci4[];
+extern u64 gWindowMeshDL_CASTLEVANIA267DAF8EB20238F952A_ciByRGBA_pal_rgba16[];
+extern Vtx gWindowMeshDL_gWindowMeshDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gWindowMeshDL_gWindowMeshDL_mesh_layer_Opaque_vtx_0[4];
+extern Gfx gWindowMeshDL_gWindowMeshDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gWindowMeshDL_gWindowMeshDL_mesh_layer_Opaque_vtx_1[8];
+extern Gfx gWindowMeshDL_gWindowMeshDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gWindowMeshDL_GlassBottom_layerOpaque[];
+extern Gfx mat_gWindowMeshDL_GlassTop_layerOpaque[];
+extern Gfx gWindowMeshDL[];

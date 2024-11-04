@@ -1,0 +1,5 @@
+extern Vtx object_tsubo_blood_DL_object_tsubo_blood_DL_mesh_layer_Transparent_vtx_cull[8];
+extern Vtx object_tsubo_blood_DL_object_tsubo_blood_DL_mesh_layer_Transparent_vtx_0[47];
+extern Gfx object_tsubo_blood_DL_object_tsubo_blood_DL_mesh_layer_Transparent_tri_0[];
+extern Gfx mat_object_tsubo_blood_DL_f3dlite_material_layerTransparent[];
+extern Gfx object_tsubo_blood_DL[];

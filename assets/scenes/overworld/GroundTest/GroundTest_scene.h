@@ -1,0 +1,77 @@
+#ifndef GROUNDTEST_SCENE_H
+#define GROUNDTEST_SCENE_H
+
+#include "ultra64.h"
+#include "macros.h"
+#include "z64.h"
+
+
+extern SceneCmd GroundTest_scene_header00[];
+extern RomFile GroundTest_scene_roomList[];
+extern u8 _GroundTest_room_0SegmentRomStart[];
+extern u8 _GroundTest_room_0SegmentRomEnd[];
+extern ActorEntry GroundTest_scene_header00_playerEntryList[];
+extern Spawn GroundTest_scene_header00_entranceList[];
+extern u16 GroundTest_scene_header00_exitList[1];
+extern EnvLightSettings GroundTest_scene_header00_lightSettings[4];
+extern CollisionHeader GroundTest_scene_collisionHeader;
+extern SurfaceType GroundTest_scene_polygonTypes[4];
+extern Vec3s GroundTest_scene_vertices[109];
+extern CollisionPoly GroundTest_scene_polygons[189];
+extern SceneCmd GroundTest_room_0_header00[];
+extern s16 GroundTest_room_0_header00_objectList[];
+extern ActorEntry GroundTest_room_0_header00_actorList[];
+extern Gfx GroundTest_room_0_shapeHeader_entry_0_opaque[];
+extern u64 GroundTest_room_0_dl_Brick_05_i8[];
+extern u64 GroundTest_room_0_dl_Wood_Paneling_Shadows_i8[];
+extern u64 GroundTest_room_0_dl_THE_LEGEND_OF_ZELDA_2B7BBE7F_2_1_A8518682_ciByRGBA_i8[];
+extern u64 GroundTest_room_0_dl__00007E00_32x64_rgba2_i8[];
+extern u64 GroundTest_room_0_dl_Tile_00_ci8[];
+extern u64 GroundTest_room_0_dl_Tile_00_pal_rgba16[];
+extern u64 GroundTest_room_0_dl_SB_0x7BA8_32x64_RGBA16_ci8[];
+extern u64 GroundTest_room_0_dl_SB_0x7BA8_32x64_RGBA16_pal_rgba16[];
+extern u64 GroundTest_room_0_dl_material_43_i8[];
+extern u64 GroundTest_room_0_dl_Curled_Stone_Test_i8[];
+extern u64 GroundTest_room_0_dl_Wall_Stucco1_i8[];
+extern u64 GroundTest_room_0_dl__0000B250_16x16_ci8_ci8[];
+extern u64 GroundTest_room_0_dl__0000B250_16x16_ci8_pal_rgba16[];
+extern u64 GroundTest_room_0_dl_Wood_Paneling_Shadows_i8_copy[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_0[98];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_0[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_1[50];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_1[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_2[4];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_2[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_3[23];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_3[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_4[90];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_4[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_5[86];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_5[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_6[75];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_6[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_7[14];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_7[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_8[10];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_8[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_9[14];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_9[];
+extern Vtx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_vtx_10[14];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque_tri_10[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_002_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_003_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_004_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_005_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_006_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_007_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_008_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_009_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_010_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_011_layerOpaque[];
+extern Gfx mat_GroundTest_room_0_dl_f3dlite_material_layerOpaque[];
+extern Gfx GroundTest_room_0_dl_Bar_Render_mesh_layer_Opaque[];
+extern RoomShapeNormal GroundTest_room_0_shapeHeader;
+extern RoomShapeDListsEntry GroundTest_room_0_shapeDListsEntry[1];
+
+#endif

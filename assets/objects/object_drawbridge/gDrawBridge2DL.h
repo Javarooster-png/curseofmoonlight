@@ -1,0 +1,17 @@
+extern u64 gDrawBridge2DL_CASTLEVANIA2_65C7B704_2_0_DBFDEBED_ciByRGBA_ci4[];
+extern u64 gDrawBridge2DL_CASTLEVANIA2_65C7B704_2_0_DBFDEBED_ciByRGBA_pal_rgba16[];
+extern u64 gDrawBridge2DL_CASTLEVANIA2_103AF0E9_2_0_1DB5477D_ciByRGBA_ci4[];
+extern u64 gDrawBridge2DL_CASTLEVANIA2_103AF0E9_2_0_1DB5477D_ciByRGBA_pal_rgba16[];
+extern u64 gDrawBridge2DL_CASTLEVANIA2_B20D7791_2_0_D822F98A_ciByRGBA_ci4[];
+extern u64 gDrawBridge2DL_CASTLEVANIA2_B20D7791_2_0_D822F98A_ciByRGBA_pal_rgba16[];
+extern Vtx gDrawBridge2DL_gDrawBridge2DL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDrawBridge2DL_gDrawBridge2DL_mesh_layer_Opaque_vtx_0[4];
+extern Gfx gDrawBridge2DL_gDrawBridge2DL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDrawBridge2DL_gDrawBridge2DL_mesh_layer_Opaque_vtx_1[342];
+extern Gfx gDrawBridge2DL_gDrawBridge2DL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDrawBridge2DL_gDrawBridge2DL_mesh_layer_Opaque_vtx_2[14];
+extern Gfx gDrawBridge2DL_gDrawBridge2DL_mesh_layer_Opaque_tri_2[];
+extern Gfx mat_gDrawBridge2DL_f3dlite_material_014_layerOpaque[];
+extern Gfx mat_gDrawBridge2DL_f3dlite_material_015_layerOpaque[];
+extern Gfx mat_gDrawBridge2DL_f3dlite_material_layerOpaque[];
+extern Gfx gDrawBridge2DL[];

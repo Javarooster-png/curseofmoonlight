@@ -1,0 +1,12 @@
+extern u64 gPortcDL_CASTLEVANIA2_D017559D_2_0_5F5BF54F_ciByRGBA_ci4[];
+extern u64 gPortcDL_CASTLEVANIA2_D017559D_2_0_5F5BF54F_ciByRGBA_pal_rgba16[];
+extern u64 gPortcDL_CASTLEVANIA2_650D0D1D_2_0_2D6E4EB6_ciByRGBA_ci4[];
+extern u64 gPortcDL_CASTLEVANIA2_650D0D1D_2_0_2D6E4EB6_ciByRGBA_pal_rgba16[];
+extern Vtx gPortcDL_gPortcDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gPortcDL_gPortcDL_mesh_layer_Opaque_vtx_0[8];
+extern Gfx gPortcDL_gPortcDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gPortcDL_gPortcDL_mesh_layer_Opaque_vtx_1[12];
+extern Gfx gPortcDL_gPortcDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gPortcDL_Portcullis_layerOpaque[];
+extern Gfx mat_gPortcDL_PortcullisBottom_layerOpaque[];
+extern Gfx gPortcDL[];

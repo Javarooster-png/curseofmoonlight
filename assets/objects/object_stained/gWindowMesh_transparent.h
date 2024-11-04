@@ -1,0 +1,6 @@
+extern u64 gWindowMesh_transparent_BlurryFullSecret_rgba16[];
+extern Vtx gWindowMesh_transparent_gWindowMesh_transparent_mesh_layer_Transparent_vtx_cull[8];
+extern Vtx gWindowMesh_transparent_gWindowMesh_transparent_mesh_layer_Transparent_vtx_0[10];
+extern Gfx gWindowMesh_transparent_gWindowMesh_transparent_mesh_layer_Transparent_tri_0[];
+extern Gfx mat_gWindowMesh_transparent_GlassBottomTransparent_layerTransparent[];
+extern Gfx gWindowMesh_transparent[];

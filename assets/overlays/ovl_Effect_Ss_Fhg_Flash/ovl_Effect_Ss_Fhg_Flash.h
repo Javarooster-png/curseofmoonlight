@@ -1,0 +1,4 @@
+#ifndef OVL_EFFECT_SS_FHG_FLASH_H
+#define OVL_EFFECT_SS_FHG_FLASH_H 1
+
+#endif

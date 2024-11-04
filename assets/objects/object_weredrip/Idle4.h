@@ -1,0 +1,1 @@
+extern AnimationHeader gWereCitIdle4Anim;

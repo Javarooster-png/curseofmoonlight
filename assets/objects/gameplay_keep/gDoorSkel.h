@@ -1,0 +1,13 @@
+extern u64 gDoorSkel_CASTLEVANIA2_98A75F39_2_0_21621B0E_ciByRGBA_ci4[];
+extern u64 gDoorSkel_CASTLEVANIA2_98A75F39_2_0_21621B0E_ciByRGBA_pal_rgba16[];
+extern Vtx gDoorSkel_bone003_gDoorSkelLimbsLimb_00FF5C_mesh_layer_Opaque_vtx_0[20];
+extern Gfx gDoorSkel_bone003_gDoorSkelLimbsLimb_00FF5C_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gDoorSkel_f3dlite_material_011_layerOpaque[];
+extern Gfx gDoorSkel_bone003_gDoorSkelLimbsLimb_00FF5C_mesh_layer_Opaque[];
+extern SkeletonHeader gDoorSkel;
+#define GDOORSKEL_BONE000_GDOORSKELLIMBSLIMB_00FF38_POS_LIMB 0
+#define GDOORSKEL_BONE000_GDOORSKELLIMBSLIMB_00FF38_ROT_LIMB 1
+#define GDOORSKEL_BONE001_GDOORSKELLIMBSLIMB_00FF44_LIMB 2
+#define GDOORSKEL_BONE002_GDOORSKELLIMBSLIMB_00FF50_LIMB 3
+#define GDOORSKEL_BONE003_GDOORSKELLIMBSLIMB_00FF5C_LIMB 4
+#define GDOORSKEL_NUM_LIMBS 5

@@ -1,0 +1,17 @@
+extern u64 gPullSwitchRodDL_PullSwitch_Metal_01_ci8[];
+extern u64 gPullSwitchRodDL_PullSwitch_Metal_01_ci8_pal_rgba16[];
+extern u64 gPullSwitchRodDL_PullSwitch_Metal_02_ci8[];
+extern u64 gPullSwitchRodDL_PullSwitch_Metal_02_ci8_pal_rgba16[];
+extern u64 gPullSwitchRodDL_PullSwitch_Metal_00_ci8[];
+extern u64 gPullSwitchRodDL_PullSwitch_Metal_00_ci8_pal_rgba16[];
+extern Vtx gPullSwitchRodDL_gPullSwitchRodDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gPullSwitchRodDL_gPullSwitchRodDL_mesh_layer_Opaque_vtx_0[24];
+extern Gfx gPullSwitchRodDL_gPullSwitchRodDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gPullSwitchRodDL_gPullSwitchRodDL_mesh_layer_Opaque_vtx_1[45];
+extern Gfx gPullSwitchRodDL_gPullSwitchRodDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gPullSwitchRodDL_gPullSwitchRodDL_mesh_layer_Opaque_vtx_2[10];
+extern Gfx gPullSwitchRodDL_gPullSwitchRodDL_mesh_layer_Opaque_tri_2[];
+extern Gfx mat_gPullSwitchRodDL_PullSwitchExtending_001_layerOpaque[];
+extern Gfx mat_gPullSwitchRodDL_Base_layerOpaque[];
+extern Gfx mat_gPullSwitchRodDL_PullSwitchHandle_layerOpaque[];
+extern Gfx gPullSwitchRodDL[];

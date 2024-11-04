@@ -1,0 +1,6 @@
+extern u64 gElevatorDLLight_CASTLEVANIA2_B92DA4CA_2_0_FE10CAB9_ciByRGBAlightfrom_ia8[];
+extern Vtx gElevatorDLLight_gElevatorDLLight_mesh_layer_Transparent_vtx_cull[8];
+extern Vtx gElevatorDLLight_gElevatorDLLight_mesh_layer_Transparent_vtx_0[8];
+extern Gfx gElevatorDLLight_gElevatorDLLight_mesh_layer_Transparent_tri_0[];
+extern Gfx mat_gElevatorDLLight_BarsLight_layerTransparent[];
+extern Gfx gElevatorDLLight[];

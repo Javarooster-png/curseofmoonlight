@@ -1,0 +1,11 @@
+-m32
+-D_LANGUAGE_C
+-I.
+-Isrc
+-Iassets
+-Ibuild
+-Iinclude
+-std=gnu99
+-Wall
+-Wno-unused-variable
+-Wno-missing-braces

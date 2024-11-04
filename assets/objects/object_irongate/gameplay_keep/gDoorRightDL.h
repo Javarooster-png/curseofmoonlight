@@ -1,0 +1,7 @@
+extern u64 gDoorRightDL_CASTLEVANIA2_98A75F39_2_0_21621B0E_ciByRGBA_ci4[];
+extern u64 gDoorRightDL_CASTLEVANIA2_98A75F39_2_0_21621B0E_ciByRGBA_pal_rgba16[];
+extern Vtx gDoorRightDL_gDoorRightDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDoorRightDL_gDoorRightDL_mesh_layer_Opaque_vtx_0[20];
+extern Gfx gDoorRightDL_gDoorRightDL_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gDoorRightDL_f3dlite_material_layerOpaque[];
+extern Gfx gDoorRightDL[];

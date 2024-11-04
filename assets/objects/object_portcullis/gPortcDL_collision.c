@@ -1,0 +1,53 @@
+#include "ultra64.h"
+#include "z64.h"
+#include "macros.h"
+
+SurfaceType gPortcDL_polygonTypes[] = {
+	{ 0x00000000, 0x00000000 },
+};
+
+CollisionPoly gPortcDL_polygons[] = {
+	{ 0x0000, 0x0000, 0x0001, 0x0002, COLPOLY_SNORMAL(-1.0), COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(0.0), 0xffcc },
+	{ 0x0000, 0x0000, 0x0002, 0x0003, COLPOLY_SNORMAL(-1.0), COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(0.0), 0xffcc },
+	{ 0x0000, 0x0004, 0x0005, 0x0006, COLPOLY_SNORMAL(1.0), COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(0.0), 0xffcc },
+	{ 0x0000, 0x0004, 0x0006, 0x0007, COLPOLY_SNORMAL(1.0), COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(0.0), 0xffcc },
+	{ 0x0000, 0x0003, 0x0004, 0x0007, COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(-1.0), COLPOLY_SNORMAL(4.371138473402425e-08), 0x0000 },
+	{ 0x0000, 0x0003, 0x0007, 0x0000, COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(-1.0), COLPOLY_SNORMAL(4.371138473402425e-08), 0x0000 },
+	{ 0x0000, 0x0002, 0x0001, 0x0008, COLPOLY_SNORMAL(-1.0), COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(0.0), 0xffcc },
+	{ 0x0000, 0x0002, 0x0008, 0x0009, COLPOLY_SNORMAL(-1.0), COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(0.0), 0xffcc },
+	{ 0x0000, 0x0006, 0x0005, 0x000a, COLPOLY_SNORMAL(1.0), COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(0.0), 0xffcc },
+	{ 0x0000, 0x0006, 0x000a, 0x000b, COLPOLY_SNORMAL(1.0), COLPOLY_SNORMAL(0.0), COLPOLY_SNORMAL(0.0), 0xffcc },
+};
+
+Vec3s gPortcDL_vertices[12] = {
+	{ -52, 0, 1409 },
+	{ -52, 764, 1409 },
+	{ -52, 764, -1409 },
+	{ -52, 0, -1409 },
+	{ 52, 0, -1409 },
+	{ 52, 764, -1409 },
+	{ 52, 764, 1409 },
+	{ 52, 0, 1409 },
+	{ -52, 3424, 1409 },
+	{ -52, 3424, -1409 },
+	{ 52, 3424, -1409 },
+	{ 52, 3424, 1409 },
+};
+
+CollisionHeader gPortcDL_collisionHeader = {
+	-52,
+	0,
+	-1409,
+	52,
+	3424,
+	1409,
+	12,
+	gPortcDL_vertices,
+	10,
+	gPortcDL_polygons,
+	gPortcDL_polygonTypes,
+	0,
+	0,
+	0
+};
+

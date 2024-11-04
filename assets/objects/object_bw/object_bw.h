@@ -1,0 +1,41 @@
+#ifndef OBJECT_BW_H
+#define OBJECT_BW_H 1
+
+extern s16 sTorchSlugEyestalkWaveAnimFrameData[];
+extern JointIndex sTorchSlugEyestalkWaveAnimJointIndices[];
+extern AnimationHeader gTorchSlugEyestalkWaveAnim;
+extern Vtx object_bwVtx_000240[];
+extern Gfx gTorchSlugLeftLowerEyestalkDL[];
+extern Vtx object_bwVtx_000358[];
+extern Gfx gTorchSlugLeftUpperEyestalkDL[];
+extern Vtx object_bwVtx_0004D8[];
+extern Gfx gTorchSlugRightLowerEyestalkDL[];
+extern Vtx object_bwVtx_0005F0[];
+extern Gfx gTorchSlugRightUpperEyestalkDL[];
+extern Vtx object_bwVtx_000770[];
+extern Gfx gTorchSlugBodyDL[];
+extern u64 gTorchSlugEyestalkTex[];
+extern u64 gTorchSlugEyeTex[];
+extern u64 gTorchSlugBodyTLUT[];
+extern u64 gTorchSlugBody1Tex[];
+extern u64 gTorchSlugBody2Tex[];
+extern StandardLimb gTorchSlugBodyLimb;
+extern StandardLimb gTorchSlugLeftEyestalkRootRootLimb;
+extern StandardLimb gTorchSlugLeftEyestalkRootLimb;
+extern StandardLimb gTorchSlugLeftUpperEyestalkRootLimb;
+extern StandardLimb gTorchSlugLeftUpperEyestalkLimb;
+extern StandardLimb gTorchSlugLeftLowerEyestalkLimb;
+extern StandardLimb gTorchSlugRightEyestalkRootRootLimb;
+extern StandardLimb gTorchSlugRightEyestalkRootLimb;
+extern StandardLimb gTorchSlugRightUpperEyestalkRootLimb;
+extern StandardLimb gTorchSlugRightUpperEyestalkLimb;
+extern StandardLimb gTorchSlugRightLowerEyestalkLimb;
+extern void* gTorchSlugSkelLimbs[];
+extern SkeletonHeader gTorchSlugSkel;
+extern s16 sTorchSlugEyestalkRaiseAnimFrameData[];
+extern JointIndex sTorchSlugEyestalkRaiseAnimJointIndices[];
+extern AnimationHeader gTorchSlugEyestalkRaiseAnim;
+extern s16 sTorchSlugEyestalkFlailAnimFrameData[];
+extern JointIndex sTorchSlugEyestalkFlailAnimJointIndices[];
+extern AnimationHeader gTorchSlugEyestalkFlailAnim;
+#endif
